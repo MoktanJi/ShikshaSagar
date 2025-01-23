@@ -28,7 +28,7 @@ const Contact = () => {
     <div>
       <section className="bg-red-600 text-white py-20 px-6 text-center">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl sm:text-5xl font-bold">Contact Us</h1>
+          <h1 className="text-4xl sm:text-5xl font-bold pt-5">Contact Us</h1>
           <p className="mt-4 text-lg sm:text-xl max-w-3xl mx-auto">
             Have questions or need help? Reach out to us using the form below, and we’ll get back to you soon!
           </p>

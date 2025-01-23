@@ -1,32 +1,35 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useEffect } from 'react';
+import ScrollToTop from './components/ScrollToTop';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
-import Courses from './pages/Courses';
-import Teach from './pages/Teach';
 import Contact from './pages/Contact';
 
-
 const App = () => {
+  useEffect(() => {
+    // Disable browser's scroll restoration
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+
+    // Ensure the page scrolls to the top on initial load or refresh
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <Router>
-      <div className="relative">
-        <Navbar />
-        <div className="pt-20">
-          <Routes>
-            <Route path="/home" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/courses" element={<Courses />} />
-            <Route path="/teach" element={<Teach />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/" element={<Home />} />
-          </Routes>
-        </div>
-        <Footer />
-      </div>
+      <ScrollToTop />
+      <Navbar />
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+      <Footer />
     </Router>
   );
-}
+};
 
 export default App;
