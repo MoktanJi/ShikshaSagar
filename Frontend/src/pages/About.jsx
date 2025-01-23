@@ -1,30 +1,49 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const About = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div>
-      {/* Hero Section with Background Image */}
-      <section className="relative bg-cover bg-center h-[60vh]" style={{ backgroundImage: "url('https://www.example.com/your-image.jpg')" }}>
-        <div className="absolute inset-0 bg-black opacity-40"></div> {/* Dark overlay */}
-        <div className="relative z-10 max-w-7xl mx-auto text-center text-white py-20 px-6">
+
+      <section className="relative bg-gray-100 pt-20 pb-12 px-6 text-center" data-aos="fade-up" data-aos-duration="1000">
+        <div className="max-w-7xl mx-auto text-center text-gray-800">
           <h1 className="text-4xl sm:text-5xl font-bold leading-tight pt-5">About Shiksha Sagar</h1>
-          <p className="mt-4 text-lg sm:text-xl max-w-3xl mx-auto">
-            We are dedicated to providing high-quality digital education across Nepal, empowering learners to unlock their full potential.
-          </p>
+
+          <div className="overflow-hidden relative h-12 mt-6 pt-5">
+            <div className="absolute whitespace-nowrap animate-scroll-left-smooth text-red-600 text-2xl font-semibold" data-aos="zoom-in">
+              At Shiksha Sagar, we are dedicated to providing high-quality digital education across Nepal, empowering learners to unlock their full potential!
+            </div>
+          </div>
         </div>
       </section>
 
-      {/* Mission Section */}
-      <section className="py-16 px-6 bg-white">
+      <section className="py-16 px-6 " data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+        <div className="max-w-7xl mx-auto text-center">
+          <img 
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguEpeKZvfOYsQwV-KgtPWBNa-4lLIRrnsPq3FVqoCon-X-Z-ON1PKDXF-qlKbADZ7ObcHwgEpZQlxA5ULwrsm4FyV3Y2nYwmIiTamwIpktCkhZBX2XdAvK0AyEUVJYZwsJLgDsZgED7D4/s1600/Canopy.png" 
+            alt="About Image" 
+            className="rounded-lg shadow-lg w-full h-auto"
+          />
+        </div>
+      </section>
+
+      <section className="py-16 px-6 bg-gray-300" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl font-semibold text-gray-800">Our Mission</h2>
-          <div className="flex justify-center mt-8 gap-8">
-            <div className="w-1/2">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-8 mt-8">
+            <div className="w-full sm:w-1/2">
               <p className="text-lg sm:text-xl text-gray-600">
                 At Shiksha Sagar, we aim to revolutionize education by offering a comprehensive and interactive learning platform that caters to learners of all backgrounds.
               </p>
             </div>
-            <div className="w-1/2">
+            <div className="w-full sm:w-1/2">
               <img 
-                src="https://www.example.com/mission-image.jpg" 
+                src="https://www.riseup.ai/hs-fs/hubfs/teamwork.jpg?width=750&name=teamwork.jpg" 
                 alt="Mission Image" 
                 className="rounded-lg shadow-lg w-full h-auto" 
               />
@@ -33,16 +52,14 @@ const About = () => {
         </div>
       </section>
 
-      {/* Values Section with Images on Left and Right */}
-      <section className="py-16 px-6 bg-gray-100">
+      <section className="py-16 px-6 bg-gray-100" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl font-semibold text-gray-800">Our Values</h2>
-          <div className="mt-12">
-            {/* First Value */}
-            <div className="flex flex-col sm:flex-row items-center justify-between gap-8 mt-12">
+          <div className="mt-12 space-y-16">
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-8">
               <div className="w-full sm:w-1/2">
                 <img 
-                  src="https://www.example.com/innovation-image.jpg" 
+                  src="https://production.static.classvr.com/production/12518_main_1737371424.png" 
                   alt="Innovation" 
                   className="rounded-lg shadow-lg w-full h-auto"
                 />
@@ -55,8 +72,7 @@ const About = () => {
               </div>
             </div>
 
-            {/* Second Value */}
-            <div className="flex flex-col sm:flex-row items-center justify-between gap-8 mt-12">
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-8">
               <div className="w-full sm:w-1/2 text-left">
                 <h3 className="text-xl font-semibold text-red-600">Accessibility</h3>
                 <p className="mt-4 text-gray-700">
@@ -65,18 +81,17 @@ const About = () => {
               </div>
               <div className="w-full sm:w-1/2">
                 <img 
-                  src="https://www.example.com/accessibility-image.jpg" 
+                  src="https://thumbs.dreamstime.com/b/disabled-girl-wheelchair-other-children-sitting-laptops-learning-coding-informatics-lesson-school-inclusive-88204932.jpg?w=992" 
                   alt="Accessibility" 
                   className="rounded-lg shadow-lg w-full h-auto"
                 />
               </div>
             </div>
 
-            {/* Third Value */}
-            <div className="flex flex-col sm:flex-row items-center justify-between gap-8 mt-12">
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-8">
               <div className="w-full sm:w-1/2">
                 <img 
-                  src="https://www.example.com/excellence-image.jpg" 
+                  src="https://cdn.theeducationhub.org.nz/wp-content/uploads/2021/03/2.-Practices-of-effective-professional-learning-communities-scaled.jpg" 
                   alt="Excellence" 
                   className="rounded-lg shadow-lg w-full h-auto"
                 />
@@ -89,22 +104,6 @@ const About = () => {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Join Us Section */}
-      <section className="py-16 px-6 bg-red-600 text-white">
-        <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-3xl font-semibold">Join Us in Our Journey</h2>
-          <p className="mt-4 text-lg sm:text-xl text-gray-100 max-w-3xl mx-auto">
-            Be part of the future of education. Together, we can create an empowered, knowledgeable society.
-          </p>
-          <a
-            href="#signup"
-            className="mt-6 inline-block bg-white text-red-600 px-6 py-3 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300"
-          >
-            Join for Free
-          </a>
         </div>
       </section>
     </div>

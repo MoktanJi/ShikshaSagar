@@ -1,0 +1,36 @@
+[
+    {
+      "id": 1,
+      "title": "Basic Graphic Design with Photoshop",
+      "description": "Learn the basics of graphic design using Adobe Photoshop, including creating logos, posters, and social media content.",
+      "category": "Vocational & Skill-based Courses",
+      "level": "Beginner",
+      "duration": "6 weeks",
+      "image": "https://www.pngkey.com/png/detail/247-2474593_graphic-design-adobe-photoshop.png",
+      "pdf": "http://librodigital.sangregorio.edu.ec/librosusgp/04557.pdf",
+      "youtube": "https://www.youtube.com/watch?v=0diKpgvK1Ds"
+    },
+    {
+      "id": 2,
+      "title": "Introduction to Digital Marketing",
+      "description": "Get hands-on experience in digital marketing techniques such as SEO, social media marketing, and Google Ads.",
+      "category": "Vocational & Skill-based Courses",
+      "level": "Intermediate",
+      "duration": "8 weeks",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLZ9mv5Muhp7fhjUW-xxlB20FnUl3c6eNFjA&s",
+      "pdf": "https://tell.colvee.org/pluginfile.php/3134/mod_resource/content/3/DM-Unit%201-Introduction%20to%20Digital%20Marketing%20-%20RJ%20-%20P1.pdf",
+      "youtube": "https://www.youtube.com/watch?v=kunkYTKFNtI"
+    },
+    {
+      "id": 3,
+      "title": "Basic Coding with HTML & CSS",
+      "description": "Learn how to create simple websites using HTML and CSS. Understand the basics of web development and design.",
+      "category": "Vocational & Skill-based Courses",
+      "level": "Beginner",
+      "duration": "5 weeks",
+      "image": "https://img.freepik.com/premium-psd/3d-web-programming-html-css-js-illustration_394084-544.jpg",
+      "pdf": "https://www.dcpehvpm.org/E-Content/BCA/BCA-II/Web%20Technology/the-complete-reference-html-css-fifth-edition.pdf",
+      "youtube": "https://www.youtube.com/watch?v=G3e-cpL7ofc"
+    }
+  ]
+  

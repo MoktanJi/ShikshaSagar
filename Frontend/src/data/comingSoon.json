@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "title": "Advanced Data Science and Machine Learning",
+      "description": "A deep dive into advanced data science techniques and machine learning algorithms, perfect for aspiring data scientists.",
+      "category": "Coming Soon",
+      "level": "Advanced",
+      "duration": "16 weeks",
+      "image": "https://miro.medium.com/v2/resize:fit:1003/0*Ibdf3YQxsvoUjb-c.png"
+    },
+    {
+      "id": 2,
+      "title": "Introduction to Cloud Computing",
+      "description": "Learn the basics of cloud computing, its platforms, and how it can be used to enhance business productivity.",
+      "category": "Coming Soon",
+      "level": "Beginner",
+      "duration": "10 weeks",
+      "image": "https://miro.medium.com/v2/resize:fit:783/1*4l674BGwa6MCmwcMIhIYNg.png"
+    },
+    {
+      "id": 3,
+      "title": "Digital Marketing & SEO",
+      "description": "Master the art of digital marketing, including search engine optimization (SEO), social media marketing, and paid advertising.",
+      "category": "Coming Soon",
+      "level": "Intermediate",
+      "duration": "12 weeks",
+      "image": "https://cdn.slidesharecdn.com/ss_thumbnails/seodigitalmarketing-180921112420-thumbnail.jpg?width=640&height=640&fit=bounds"
+    },
+    {
+      "id": 4,
+      "title": "Blockchain and Cryptocurrency",
+      "description": "Get an introduction to blockchain technology, understand how cryptocurrencies work, and explore the potential applications of this revolutionary technology.",
+      "category": "Coming Soon",
+      "level": "Intermediate",
+      "duration": "14 weeks",
+      "image": "https://img.freepik.com/free-vector/modern-bitcoin-design_1035-9520.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Cybersecurity Essentials",
+      "description": "Learn how to protect networks and systems from cyber threats, and gain the knowledge to keep information secure.",
+      "category": "Coming Soon",
+      "level": "Beginner",
+      "duration": "8 weeks",
+      "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/df/46c3972a89409d8e61d5cc5cc3ad16/Intro-to-Cybersecurity-Essentials-Temp-no-watermark-.png"
+    },
+    {
+      "id": 6,
+      "title": "UI/UX Design Fundamentals",
+      "description": "Understand the key principles of user interface and user experience design to create intuitive and engaging digital products.",
+      "category": "Coming Soon",
+      "level": "Intermediate",
+      "duration": "10 weeks",
+      "image": "https://www.aim.com.au/sites/default/files/00960_AIM_Screens_UXDesignFundamentals_640x360.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Full Stack Web Development",
+      "description": "Master front-end and back-end technologies to become a full stack developer, creating dynamic, responsive websites.",
+      "category": "Coming Soon",
+      "level": "Advanced",
+      "duration": "16 weeks",
+      "image": "https://cdni.iconscout.com/illustration/premium/thumb/full-stack-developer-illustration-download-in-svg-png-gif-file-formats--java-logo-web-development-pack-crime-security-illustrations-4051527.png"
+    }
+  ]
+  

@@ -6,15 +6,14 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Courses from './pages/Courses'; 
 
 const App = () => {
   useEffect(() => {
-    // Disable browser's scroll restoration
     if ('scrollRestoration' in window.history) {
       window.history.scrollRestoration = 'manual';
     }
 
-    // Ensure the page scrolls to the top on initial load or refresh
     window.scrollTo(0, 0);
   }, []);
 
@@ -26,6 +25,7 @@ const App = () => {
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/courses" element={<Courses />} /> 
       </Routes>
       <Footer />
     </Router>

@@ -1,0 +1,36 @@
+[
+    {
+      "id": 1,
+      "title": "Introduction to Artificial Intelligence (AI)",
+      "description": "Learn the fundamentals of AI, including machine learning, neural networks, and applications in various industries.",
+      "category": "Technology & Engineering",
+      "level": "Beginner",
+      "duration": "10 weeks",
+      "image": "https://360digit.b-cdn.net/assets/admin/ckfinder/userfiles/images/blog/04-08-2023/04-08-2023-f/29%20-%20An%20Introduction%20to%20Artificial%20Intelligence-01-min.png",
+      "pdf": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/2024-wttc-introduction-to-ai.pdf",
+      "youtube": "https://www.youtube.com/watch?v=FkqINm-l3q0"
+    },
+    {
+      "id": 2,
+      "title": "Building Mobile Apps with React Native",
+      "description": "Develop cross-platform mobile applications using React Native and learn how to create modern mobile apps.",
+      "category": "Technology & Engineering",
+      "level": "Intermediate",
+      "duration": "12 weeks",
+      "image": "https://www.visual-craft.com/static/86b4a37121c83372d45b5f4878caccf1/8e4fb/React_Native_2_c5ab49be9b.png",
+      "pdf": "https://dl.ebooksworld.ir/motoman/Apress.React.Native.for.Mobile.Development.2nd.Edition.www.EBooksWorld.ir.pdf",
+      "youtube": "https://www.youtube.com/watch?v=mJ3bGvy0WAY"
+    },
+    {
+      "id": 3,
+      "title": "Introduction to Robotics and Automation",
+      "description": "Explore the world of robotics and automation technologies, including basic robot design and programming techniques.",
+      "category": "Technology & Engineering",
+      "level": "Beginner",
+      "duration": "8 weeks",
+      "image": "https://static.wixstatic.com/media/488206_879283f2151949398ff336fb198ace45~mv2.png/v1/fill/w_560,h_618,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/robots.png",
+      "pdf": "https://mrcet.com/pdf/Lab%20Manuals/CSECS/ROBOTICS%20AND%20AUTOMATION.pdf",
+      "youtube": "https://www.youtube.com/watch?v=T3gssUSHonI"
+    }
+  ]
+  

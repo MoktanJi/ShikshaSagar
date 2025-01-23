@@ -1,0 +1,36 @@
+[
+    {
+      "id": 1,
+      "title": "Introduction to Algebra",
+      "description": "Master the basics of algebra, including solving equations, working with variables, and understanding functions.",
+      "category": "Middle School & High School",
+      "level": "Middle School",
+      "duration": "6 weeks",
+      "image": "https://i.ytimg.com/vi/VqfeXMinM0U/sddefault.jpg",
+      "pdf": "https://ozren.weebly.com/uploads/4/2/7/3/4273045/cameron_p.j._introduction_to_algebra.pdf",
+      "youtube": "https://www.youtube.com/watch?v=grnP3mduZkM"
+    },
+    {
+      "id": 2,
+      "title": "Fundamentals of Physics",
+      "description": "Learn the foundational principles of physics such as motion, energy, forces, and the laws that govern the physical world.",
+      "category": "Middle School & High School",
+      "level": "High School",
+      "duration": "8 weeks",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAeT_1rFGnMiCeobQeSy-3dQSm9cdvRjT8fQ&s",
+      "pdf": "https://people.frib.msu.edu/~ostroumo/PHY183-184/PHY183-PHY184%20Fundamentals%20of%20Physics%20%5B10th%20Edition%5D%20-%20Halliday%20&%20Resnick.pdf",
+      "youtube": "https://www.youtube.com/watch?v=KOKnWaLiL8w&list=PLFE3074A4CB751B2B"
+    },
+    {
+      "id": 3,
+      "title": "Introduction to Computer Programming",
+      "description": "Learn how to program using Python, one of the most popular and beginner-friendly programming languages.",
+      "category": "Middle School & High School",
+      "level": "High School",
+      "duration": "8 weeks",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyiMD9w2IfO6aYE5SOjiGqvuX07HztsO51qA&s",
+      "pdf": "https://www.pearsonhighered.com/assets/samplechapter/0/3/2/1/0321537114.pdf",
+      "youtube": "https://www.youtube.com/watch?v=zOjov-2OZ0E"
+    }
+  ]
+  

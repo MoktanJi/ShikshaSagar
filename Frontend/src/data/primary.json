@@ -1,0 +1,36 @@
+[
+    {
+      "id": 1,
+      "title": "Basic Math and Arithmetic",
+      "description": "Learn basic math concepts like addition, subtraction, multiplication, and division in a fun and interactive way.",
+      "category": "For Kids",
+      "level": "Primary",
+      "duration": "4 weeks",
+      "image": "https://cdn1.byjus.com/wp-content/uploads/2016/08/arithmetic.jpg",
+      "pdf": "https://www.ulm.edu.pk/departments/admin/upload/downloads/202110030921.pdf",
+      "youtube": "https://www.youtube.com/watch?v=Fubh6iYyZ94&list=PLbpXrZGbB0i4AJh7O1g6qrmpO5PZsVrH7"
+    },
+    {
+      "id": 2,
+      "title": "Reading and Writing Fundamentals",
+      "description": "Improve your reading skills and learn how to write simple sentences and stories with a fun approach.",
+      "category": "For Kids",
+      "level": "Primary",
+      "duration": "6 weeks",
+      "image": "https://i.pinimg.com/564x/7f/6d/a1/7f6da117ba2dc44bf16c2d9d6ad33e60.jpg",
+      "pdf": "https://holytrinity.hackney.sch.uk/wp-content/uploads/sites/2/2022/05/Writing-Fundamentals.pdf",
+      "youtube": "https://www.youtube.com/watch?v=iqxgye5m7o0&list=PLHFdCN6QRflqXDR59Cg6R2sMLK9tP9kee"
+    },
+    {
+      "id": 3,
+      "title": "Creative Arts: Drawing & Painting",
+      "description": "Explore your artistic side by learning basic drawing and painting techniques that allow you to express your creativity.",
+      "category": "For Kids",
+      "level": "Primary",
+      "duration": "6 weeks",
+      "image": "https://png.pngtree.com/png-clipart/20220107/ourmid/pngtree-painting-class-art-class-painting-class-paint-and-children-png-image_4098847.png",
+      "pdf": "https://utia.tennessee.edu/publications/wp-content/uploads/sites/269/2023/10/W940.pdf",
+      "youtube": "https://www.youtube.com/watch?v=KNSYIDI9Sdw"
+    }
+  ]
+  

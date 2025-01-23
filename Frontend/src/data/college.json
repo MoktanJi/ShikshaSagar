@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "Advanced Web Development",
+    "description": "Learn how to build full-stack web applications using modern technologies such as React, Node.js, and MongoDB.",
+    "category": "College Students & Adults",
+    "level": "College/Adult",
+    "duration": "10 weeks",
+    "image": "https://png.pngtree.com/png-vector/20190613/ourmid/pngtree-web-development-illustration-modern-can-be-used-for-landing-pages-web-png-image_1496222.jpg",
+    "pdf": "https://rua.ua.es/dspace/bitstream/10045/11837/2/02-Mootools.pdf",
+    "youtube": "https://www.youtube.com/watch?v=l1EssrLxt7E&list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n"
+  },
+  {
+    "id": 2,
+    "title": "Data Science with Python",
+    "description": "Master data analysis and machine learning techniques using Python and popular libraries such as Pandas, NumPy, and Scikit-learn.",
+    "category": "College Students & Adults",
+    "level": "College/Adult",
+    "duration": "12 weeks",
+    "image": "https://cdn.shopaccino.com/igmguru/products/data-science--with-python-igmguru_176161162_l.jpg?v=490",
+    "pdf": "https://example.com/pdfs/data-science-python.pdf",
+    "youtube": "https://www.youtube.com/watch?v=rZscdOTs3s0"
+  },
+  {
+    "id": 3,
+    "title": "Financial Accounting",
+    "description": "Gain an understanding of the principles of accounting, financial statements, and how to manage finances in a business setting.",
+    "category": "College Students & Adults",
+    "level": "College/Adult",
+    "duration": "8 weeks",
+    "image": "https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2022_11_Financial-Accounting.jpg",
+    "pdf": "https://icmai.in/upload/Students/Syllabus-2012/Study_Material_New/Inter-Paper5-Revised.pdf",
+    "youtube": "https://www.youtube.com/watch?v=v-djL7SPw4c"
+  }
+]
